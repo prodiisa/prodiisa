@@ -146,3 +146,6 @@ footer {
     background-color: #333;
     color: #fff;
 }
+
+
+/* Media Queries para Responsividad */ /* Tablets (pantallas entre 768px y 1024px) */ @media (max-width: 1024px) { .header-content { flex-direction: column-reverse; /* Cambia el orden de los elementos */ height: auto; } .carousel { width: 100%; height: 50vh; } .nav-list { font-size: 36px; line-height: 48px; } .nav-link { font-size: 36px; } } /* Dispositivos Móviles (pantallas menores a 768px) */ @media (max-width: 768px) { .header-content { flex-direction: column-reverse; /* Cambia el orden de los elementos */ height: auto; } .logo { position: static; margin: 20px 0; } .carousel { width: 100%; height: 40vh; } .nav-list { font-size: 24px; line-height: 36px; } .nav-link { font-size: 24px; } main { padding: 20px; } }
