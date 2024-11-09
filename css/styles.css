@@ -317,6 +317,12 @@ footer {
             /*  margin-top: 10px; */
             font-size: 18px;
             padding: 5px;
+            width: 100%;
+         }
+
+         .des_dro{
+            font-size: 18px;
+            width: 100%;
          }
 
        
