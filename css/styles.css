@@ -130,6 +130,22 @@ nav {
     color: #444;
 }
 
+/* CSS botón WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 60px; /* Ajusta el tamaño según tus necesidades */
+    height: 60px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%; /* Redondea las esquinas */
+    background-color: #25D366; /* Color verde original de WhatsApp */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para mejor visibilidad */
+}
+
 
 
 /* Main */
@@ -196,4 +212,29 @@ footer {
     } 
     main { 
         padding: 20px; } 
+    }
+
+
+
+    /* boton Whatsapp Media Queries para tablets (pantallas entre 768px y 1024px) */ 
+    @media (max-width: 1024px) { 
+        .whatsapp-button { 
+            bottom: 30px; /* Ajuste de la posición */ 
+            right: 30px; /* Ajuste de la posición */ 
+        } 
+        .whatsapp-button img { 
+            width: 50px; /* Reducción de tamaño */ 
+            height: 50px; /* Reducción de tamaño */ 
+        } 
+    } 
+    /* boton whatsapp Media Queries para móviles (pantallas menores a 768px) */ 
+    @media (max-width: 768px) { 
+        .whatsapp-button { 
+            bottom: 10px; /* Ajuste de la posición */ 
+            right: 10px; /* Ajuste de la posición */ 
+        } 
+        .whatsapp-button img { 
+            width: 40px; /* Reducción de tamaño */ 
+            height: 40px; /* Reducción de tamaño */ 
+        } 
     }
