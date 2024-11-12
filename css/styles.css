@@ -504,6 +504,7 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Media Queries para Tablet y Móvil */
 @media (max-width: 1024px) {
     .content-wrapper {
         flex-direction: column;
@@ -517,6 +518,7 @@ footer {
 
     .image-container {
         margin-bottom: 20px;
+        order: -1; /* Asegura que la imagen aparezca primero */
     }
 
     .text-container {
@@ -526,6 +528,7 @@ footer {
     .view-more-button {
         width: auto;
         padding: 10px 20px;
+        margin-top: 20px; /* Añadido margen superior para separación */
     }
 }
 
@@ -542,6 +545,7 @@ footer {
 
     .image-container {
         margin-bottom: 20px;
+        order: -1; /* Asegura que la imagen aparezca primero */
     }
 
     .text-container {
@@ -551,5 +555,6 @@ footer {
     .view-more-button {
         width: auto;
         padding: 10px 20px;
+        margin-top: 20px; /* Añadido margen superior para separación */
     }
 }
