@@ -276,8 +276,8 @@ footer {
             right: 10px; /* Ajuste de la posición */ 
         } 
         .whatsapp-button img { 
-            width: 80px; /* Reducción de tamaño */ 
-            height: 80px; /* Reducción de tamaño */ 
+            width: 70px; /* Reducción de tamaño */ 
+            height: 70px; /* Reducción de tamaño */ 
         } 
     }
 
@@ -436,7 +436,7 @@ footer {
     }
 
     .text-container {
-        padding: 5px;
+        padding: 3px;
     }
 
     .read-more-button {
